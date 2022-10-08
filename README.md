@@ -36,3 +36,4 @@ npm i
 ```
 npx webpack serve
 ```
+Приложение откроется по ссылке http://localhost:3001/
