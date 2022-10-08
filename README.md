@@ -49,13 +49,13 @@ npx webpack serve
 
 <img width="289" alt="изображение" src="https://user-images.githubusercontent.com/74718352/194723434-3c1fb319-d1aa-419d-9fae-f7cd1a721d4d.png">
 
-Информация о билетах будет храниться в таблице ticket_info, где type_id - это id из первой таблицы
+Информация о билетах будет храниться в таблице tickets_info, где type_id - это id из первой таблицы
 
 <img width="471" alt="изображение" src="https://user-images.githubusercontent.com/74718352/194723523-7a4c3467-98d1-4441-84ff-87720bd4c5ba.png">
 
 ### Вопрос 2. 
 
-Создаем отдельную таблицу для билетов, где у каждого билета есть свой баркод. ticket_id берем из таблицы ticket_info, там же хранится информация о цене и типе билета
+Создаем отдельную таблицу для билетов, где у каждого билета есть свой баркод. ticket_id берем из таблицы tickets_info, там же хранится информация о цене и типе билета
 
 <img width="617" alt="изображение" src="https://user-images.githubusercontent.com/74718352/194723589-f70ce983-3abe-49aa-b12c-6beb8ad09d71.png">
 
