@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.calc-content {
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 600px;
+}
+
+.calc-time-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calc-time, .calc-route, .calc-count, .calc-result {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.calc-label {
+    font-size: 20px;
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.info {
+    text-align: start;
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+} 
